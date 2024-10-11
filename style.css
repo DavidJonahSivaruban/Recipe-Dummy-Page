@@ -1,0 +1,198 @@
+:root {
+    --main-font:"Outfit";  /* main font */
+    --secondary-font:"Young Serif";  /* secondary-font*/
+
+    /* custom fonts based from Figma file */
+
+    --text-color-brown-800: hsl(14, 45%, 36%); /* brown 800 */
+    --text-color-stone-100: hsl(30, 54%, 90%); /* stone color with shade of 100 */
+    --text-color-stone-150: hsl(30, 18%, 87%); /* stone color with shade of 150 */
+    --text-color-stone-600:hsl(30, 10%, 34%); /* stone color with shade of 600 */
+    --text-color-stone-900: hsl(24, 5%, 18%); /* stone color with shade of 900 */
+    --text-color-rose-50:hsl(330, 100%, 98%); /* rose color with shade of 50 */
+    --text-color-rose-800:hsl(332, 51%, 32%); /* rose color with shade of 800 */
+}
+
+ol ::marker {
+    color: var(--text-color-brown-800);
+    font-weight: bold;
+}
+
+.prep-list ::marker {
+color: var(--text-color-rose-800);
+}
+
+.ingredients-main ::marker{
+    color: var(--text-color-brown-800);
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    background-color: hsl(30, 54%, 90%); 
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    margin-left: 200px;
+    border: none;
+    border-radius: 20px;
+}
+
+img{
+    height: 300px;
+    padding-top: 28px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 35px;
+}
+
+.recipe-title{
+font-family: var(--secondary-font);
+font-size: 1.8rem;
+padding-top: 5px;
+padding-left: 28px
+}
+
+.description-snip{
+    font-family: var(--main-font);
+    font-size: 0.8rem;
+    color: var(--text-color-stone-600);
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.prep-box{
+    background-color: var(--text-color-rose-50);
+    margin: 28px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.prep-time{
+font-family: var(--main-font);
+color: var(--text-color-rose-800);
+font-size: 1rem;
+padding-left: 19px;
+}
+
+.prep-list{
+    font-family: var(--main-font);
+    font-size: 0.7rem;
+    padding-left:45px;
+    line-height: 1.9;
+    padding-bottom: 10px;
+
+}
+
+.ingredient-box{
+margin-left: 28px;
+margin-right: 28px;
+margin-top: 8px;
+border-bottom-style: solid;
+border-bottom-color: rgb(171, 167, 167);
+border-bottom-width: 1px;
+}
+
+.ingredient-title{
+    font-family: var(--secondary-font);
+    font-weight: 400 ;
+    color: var(--text-color-brown-800);
+}
+
+.ingredients-main{
+    font-family: var(--main-font);
+    font-size: 0.7rem;
+    line-height: 1.9;
+    padding-left: 20px ;
+}
+
+.instruction-box{
+margin-left: 28px;
+margin-right: 28px;
+margin-top: 8px;
+border-bottom-style: solid;
+border-bottom-color: rgb(171, 167, 167);
+border-bottom-width: 1px;
+}
+
+.instruction-title{
+    font-family: var(--secondary-font);
+    font-weight: 400 ;
+    color: var(--text-color-brown-800);
+}
+
+.instruction-list{
+    font-family: var(--main-font);
+    font-size: 0.7rem;
+    line-height: 2;
+    padding-left: 20px;
+}
+
+.nutrition-box{
+margin-left: 28px;
+margin-right: 28px;
+margin-top: 8px;
+margin-bottom: 20px;
+}
+
+.nutrition-title {
+    font-family: var(--secondary-font);
+    font-weight: 400 ;
+    color: var(--text-color-brown-800);
+}
+
+p {
+    font-family: var(--main-font);
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: var(--main-font);
+    font-size: 0.7rem;
+}
+
+th, td {
+    border-bottom: 1px solid hsl(0, 0%, 88%);
+    padding: 10px 0 10px 0;
+    text-align: left;
+    width: 50%;
+}
+
+th {
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    padding-left: 30px;
+}
+
+td {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+.attribution-box{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.frontendmentor {
+    color: blue;
+}
+
+.coder-djs {
+    color: blue;
+}
+
